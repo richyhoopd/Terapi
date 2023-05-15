@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+/* definition */
+@font-face {
+  font-family: Clarendon-Bold;
+  src: url('../Fonts/clarendon-bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .splashScreen--container {
   /* terapi - splashscreen */
 
@@ -29,7 +37,7 @@ background-color: #0C70E8;
 }
 
 h1.logo--splashscreen {
-  font-family: "Clarendon-Bold";
+  font-family: Clarendon-Bold;
   font-style: normal;
   font-weight: 100;
   font-size: 50px;
