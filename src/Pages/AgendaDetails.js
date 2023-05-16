@@ -1,20 +1,24 @@
 import React from 'react';
-import '../Styles/agendaDetails.css';
 import BackComponent from '../Components/BackComponent';
-import pfp from '../Assets/pfp-white.png'
+import pfp from '../Assets/pfp-white.png';
+import '../Styles/agendaDetails.css';
+import calendario from '../Assets/calendario-circ.png'
+
 
 export default function AgendaDetails() {
   return (
     <div className='agenda--details__container'>
         <BackComponent/>
         <div className='details--component'>
-            <div className='details--text'>
                 <p>Terapia con Alejandro</p>
-            </div>
-            <div className='details--pfp'>
                 <img src={pfp} alt='alejandro' />
+        </div>
+        <div className='details--hour__component'>
+            <img src={calendario} alt='calendario' />
+            <div>
+                <p className='dia'>Domingo 23 de Febrero</p>
+                <p className='hora'>10:30 - 11:30</p>
             </div>
-
         </div>
     </div>
   )
