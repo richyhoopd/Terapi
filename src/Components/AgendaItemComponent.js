@@ -10,8 +10,9 @@ export default function AgendaItemComponent() {
         type="month"
         id="start"
         name="start"
-        min="2018-03"
-        value="2018-05"
+        min="2020-05"
+        value="2023-05"
+        className="input--dropdown__lol"
       />
       <div id="containerrr">
         <div className="agenda--item">
@@ -20,14 +21,17 @@ export default function AgendaItemComponent() {
             <p className="day--number">23</p>
           </div>
           <div className="agenda--box">
-          <div className="agenda--pfp">
+          
+            <div className="row-1">
+              <div className="row-2">
+              <p>Terapia con Alejandro</p>
+              <div className="agenda--pfp">
               <img src={pfp} alt="caca" />
             </div>
-            <div className="row-1">
-              <p>Terapia con Alejandro</p>
+              </div>
               <p>10:30 - 11:30</p>
             </div>
-            <Link className="agenda--details__button">Ver detalles</Link>
+            <Link to={'/agenda/detalles'} className="agenda--details__button">Ver detalles</Link>
           </div>
         </div>
         <div className="agenda--item">
@@ -36,14 +40,17 @@ export default function AgendaItemComponent() {
             <p className="day--number">23</p>
           </div>
           <div className="agenda--box">
-            <div className="agenda--pfp">
+          
+            <div className="row-1">
+              <div className="row-2">
+              <p>Terapia con Alejandro</p>
+              <div className="agenda--pfp">
               <img src={pfp} alt="caca" />
             </div>
-            <div className="row-1">
-              <p>Terapia con Alejandro</p>
+              </div>
               <p>10:30 - 11:30</p>
             </div>
-            <Link className="agenda--details__button">Ver detalles</Link>
+            <Link to={'/agenda/detalles'} className="agenda--details__button">Ver detalles</Link>
           </div>
         </div>
       </div>
