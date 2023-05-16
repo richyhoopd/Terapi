@@ -26,6 +26,7 @@ body {
   border-radius: 23px;
   text-decoration: none;
   transition: 0.3s;
+  margin-bottom: 2vh;
 };
 
 .card--terapeuta:hover {
@@ -46,6 +47,20 @@ h2 {
   line-height: 28px;
   color: #0e112c;
 }
+
+h2.card--chat__terapeuta {
+    margin-top: 2.25vh;
+    margin-bottom: 2.5vh;
+    width: 88vw;
+    height: 28px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #0e112c;
+  }
+
 
 .nombre--terapeuta {
     font-family: 'Space Grotesk';

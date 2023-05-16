@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import Chat from './Pages/Chat';
+import Agenda from './Pages/Agenda';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       < Route path='/register' element={<Register/>} />
       < Route path='/login' element={<Login/>} />
       < Route path='/chat' element={<Chat/>} />
+      < Route path='/agenda' element={<Agenda/>} />
+
     </Routes>
    </BrowserRouter>
   );

@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 export default function TerapeutaChatComponent() {
   return (
     <div className='terapeutas--container'>
-        <h2>Tu terapeuta</h2>
+        <h2 className='card--chat__terapeuta'>Tu terapeuta</h2>
         <Link to={'/home'} className='card--terapeuta'>
             <div className='imagen--container'>
                 <img src={pfp} alt='terapeuta'></img>

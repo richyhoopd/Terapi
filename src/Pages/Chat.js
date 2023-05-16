@@ -1,13 +1,16 @@
 import React from 'react';
 import TopTextComponent from '../Components/TopTextComponent';
 import TerapeutaChatComponent from '../Components/TerapeutaChatComponent';
-import '../Styles/chat.css'
+import ContactosEmergenciaComponent from '../Components/ContactosEmergenciaComponent';
+import Navbar from '../Components/Navbar';
 
 export default function Chat() {
   return (
-    <div className='chat--home__container'>
+    <div>
         <TopTextComponent/>
         <TerapeutaChatComponent/>
+        <ContactosEmergenciaComponent/>
+        <Navbar/>
     </div>
   )
 }
