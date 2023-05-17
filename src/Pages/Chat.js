@@ -5,9 +5,12 @@ import ContactosEmergenciaComponent from '../Components/ContactosEmergenciaCompo
 import Navbar from '../Components/Navbar';
 
 export default function Chat() {
+  const title = 'Mensajes';
+  const subtitle = 'Envía mensajes a tu terapeuta cada que lo necesitas. También agrega amigos';
+
   return (
     <div>
-        <TopTextComponent/>
+        <TopTextComponent title={title} subtitle={subtitle}/>
         <TerapeutaChatComponent/>
         <ContactosEmergenciaComponent/>
         <Navbar/>

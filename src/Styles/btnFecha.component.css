@@ -6,7 +6,7 @@
 
 #btnFechaComponent {
 display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
 justify-content: flex-start;
 align-items: center;
 padding: 17px 128px 17px 21px;
