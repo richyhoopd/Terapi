@@ -7,7 +7,7 @@ export default function TerapeutaChatComponent() {
   return (
     <div className='terapeutas--container'>
         <h2 className='card--chat__terapeuta'>Tu terapeuta</h2>
-        <Link to={'/home'} className='card--terapeuta'>
+        <Link to={'/chat/perfil'} className='card--terapeuta'>
             <div className='imagen--container'>
                 <img src={pfp} alt='terapeuta'></img>
             </div> 
