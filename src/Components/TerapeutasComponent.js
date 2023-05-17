@@ -7,7 +7,7 @@ export default function TerapeutasComponent() {
   return (
     <div className='terapeutas--container'>
         <h2>Terapeutas para ti</h2>
-        <Link to={'/home'} className='card--terapeuta'>
+        <Link to={'/terapeuta/perfil'} className='card--terapeuta'>
             <div className='imagen--container'>
                 <img src={pfp} alt='terapeuta'></img>
             </div> 
